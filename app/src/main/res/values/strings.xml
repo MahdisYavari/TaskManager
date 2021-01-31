@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TaskManager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="button_login">LOGIN</string>
+    <string name="todo_image">TODO</string>
+    <string name="button_sign_up">SING UP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="password_sign">Password</string>
+    <string name="username_sign">Username</string>
+    <string name="button_sign_up2">SIGN UP</string>
+    <string name="pic_register2">sign up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_text_view">_Login_</string>
+    <string name="text_view_rgs">You are not a user ? Register !</string>
+    <string name="search_ic">Search</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="delete_item">Item</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

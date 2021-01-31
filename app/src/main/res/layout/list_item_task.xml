@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/back"
+    android:layout_margin="10dp"
+    android:id="@+id/card_view"
+    app:layout_constraintCircleRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/txt_view_task"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/text_view_task"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/share_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_action_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/title_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#422E49"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintStart_toEndOf="@+id/txt_view_task"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#422E49"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/title_task"
+        app:layout_constraintTop_toBottomOf="@id/title_task" />
+
+    <TextView
+
+        android:id="@+id/date_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        app:layout_constraintStart_toStartOf="@+id/description_task"
+        app:layout_constraintTop_toBottomOf="@id/description_task"
+        android:textColor="#422E49"
+        android:textSize="12sp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
