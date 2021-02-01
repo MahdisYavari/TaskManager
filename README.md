@@ -3,7 +3,7 @@ This includes 3 tabs for saving your task in 3 states (ToDo, Doing, Done) .
 You can easily handle the state of them and also set a photo for each item by camera .
 Also there is an option for seeing the tasks of the each user as admin .
 
-Dependencies
+Features
 
 1) Tab Layout and View pager
 2) Dialog Fragment
